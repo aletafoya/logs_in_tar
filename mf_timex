@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [[ -n $1 ]]; then
+    downloads_dir=$1
+else
+    echo "Directory not provided"
+    exit
+fi
+
+if [[ -n $2 ]]; then
+    new_location=$2
+else
+    new_location="$PWD"
+fi
+
+echo "$new_location"
+tar -czvf "$new_location"/all_logs.tar.gz "$downloads_dir"/*.log
+# tar -czvf all_logs.tar.gz /var/log/*.log
+
