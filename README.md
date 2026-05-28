@@ -17,6 +17,6 @@ It accepts two parameters, first one is mandatory, where are we going to compres
 
 Finally, the script is going to make the work and we have our logs in .tar.gz archive.
 
-# URL
-https://github.com/aletafoya/logs_in_tar
-
+# URL project
+[https://github.com/aletafoya/logs_in_tar
+](https://roadmap.sh/projects/log-archive-tool)
